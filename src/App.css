@@ -1,5 +1,5 @@
 body {
-  background-color: #3d3d3d;
+  background-color: #ccccff;
   padding: 0px;
   margin: 0px;
   width: 100%;
@@ -12,7 +12,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  max-width: 650px;
+  /* max-width: 650px; */
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -90,14 +90,4 @@ a:link {
   font-size: 24px;
   font-weight: bold;
   color: black;
-}
-
-@keyframes youtubeAnim {
-  0%,
-  100% {
-    color: #f5de50;
-  }
-  50% {
-    color: #f5de50;
-  }
 }

@@ -1,6 +1,5 @@
 function MovieCard({ movies }) {
-  console.log("TEST", movies);
-
+  console.log(movies.items);
   return (
     <div className="wrapper">
       {movies.items.map((movie) => {

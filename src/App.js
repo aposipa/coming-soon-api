@@ -12,7 +12,7 @@ function App() {
   const getMovies = () => {
     const options = {
       method: "GET",
-      url: "not yet",
+      url: "",
     };
 
     axios
@@ -28,8 +28,7 @@ function App() {
         console.error(error);
       });
   };
-  // console.log("MOVIES STATE", movies);
-  // console.log("IMDBLINK STATE", imdblink);
+
   useEffect(() => {
     getMovies();
   }, []);
